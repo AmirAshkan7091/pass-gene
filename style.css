@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    --bs-bg-opacity: 1;
+    background-color: rgba(33, 37, 41, 255);
+}
+
+.bg-light1 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(33, 37, 41, 255);
+}
+
+.container-fluid1 {
+    text-align: center;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    /* display: flex; */
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    --bs-bg-opacity: 1;
+    background-color: rgba(33, 37, 41, 255);
+}
+
+.aasd {
+    font-size: 50px;
+    color: white;
+}
+
+.aasd1 {
+    font-size: 57px;
+}
+
+.password-size-text {
+    font-size: 30px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+/* list main */
+
+.list-main {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 70px;
+    overflow: auto;
+}
