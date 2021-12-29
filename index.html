@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body style="background-color: rgba(33, 37, 41, 255);">
     <header>
         <nav class="navbar navbar-light bg-light1">
             <div class="container-fluid1">
@@ -21,7 +21,7 @@
             </div>
         </nav>
         <!-- As a heading -->
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light1">
             <div class="container-fluid1">
                 <span class="password-size-text">Password Generatore</span>
             </div>
@@ -29,9 +29,22 @@
     </header>
     <div class="container flex-column">
         <main class="px-9">
+            <div class="card mb-3">
+                <div class="d-grid gap-2">
+                    <button id="generate" class="btn btn-primary" type="button">Generate Password</button>
 
+                </div>
+                <br>
+                <div class="card-body1-2">
+
+                    <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+
+                </div>
+                <br>
+            </div>
         </main>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,4 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
     --bs-bg-opacity: 1;
     background-color: rgba(33, 37, 41, 255);
 }
@@ -10,6 +9,7 @@ body {
 }
 
 .container-fluid1 {
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     width: 100%;
     padding-right: var(--bs-gutter-x, .75rem);
@@ -42,6 +42,17 @@ body {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+}
+
+.card-body1-2 {
+    text-align: center;
+}
+
+#password {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    border: rgb(0, 0, 0);
 }
 
 
