@@ -51,7 +51,7 @@ function generatePassword() {
 
 
 
-        for (let i = 0; i < (passLength / ); i++) {
+        for (let i = 0; i < (passLength / 2); i++) {
 
             if (confirmNumeric === true) {
                 console.log(confirmNumeric);
