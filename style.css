@@ -65,3 +65,11 @@ body {
     line-height: 70px;
     overflow: auto;
 }
+
+.gap-2 {
+    text-align: center;
+}
+
+.row-center {
+    align-items: center;
+}
