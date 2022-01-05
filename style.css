@@ -73,3 +73,39 @@ body {
 .row-center {
     align-items: center;
 }
+
+.color-font {
+    color: white;
+}
+
+.back-color {
+    background-color: gray;
+}
+
+.color-font-n {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.gap-3 {
+    border: 2px rgb(121, 121, 121) solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.margin-h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.margin-row-left {
+    margin-left: 20px;
+}

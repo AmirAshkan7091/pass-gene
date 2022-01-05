@@ -27,180 +27,148 @@
             </div>
         </nav>
     </header>
-    <div class="container flex-column">
+    <!-- the main of page include questions and the length of password -->
+    <div class="container flex-column color-font back-color">
         <main class="px-9">
-            <div class="card mb-3">
-
+            <br>
+            <!-- start questions's checkbox -->
+            <div class=" mb-3 color-font-n back-color">
                 <br>
-
+                <div class="d-grid gap-2 gap-3">
+                    <h3 class="margin-h3">Choose your prefrences for your password</h3>
+                </div>
                 <div class="container">
                     <div class="row row-center">
-                        <hr>
-                        <div class="d-grid gap-2">
-                            <h3>choose the length of your pasword </h3>
-                        </div>
-                        <hr>
                         <div class="col">
                             <div class="col order-5">
                                 <div class="form-check">
-                                    <input class="form-check-input ssd" type="radio" name="exampleRadios" id="exampleRadios" value="8" checked>
-                                    <label class="form-check-label" for="exampleRadios">
-                                  <p>
-                                    do you like your password include numbers?
-                                  </p>
+                                    <label class="form-check-label" for="numb">
+                                      <input class="form-check-input " type="checkbox" name="numb" id="numb" value="yes">                               
+                                    Would you like your password to include numbers?
                                 </label>
                                 </div>
+                                <br>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="10" checked>
-                                    <label class="form-check-label" for="exampleRadios">
-                                  <p>
-                                    do you like your password include characters like(!,@,*,%,...) ?
-                                  </p>
-                                </label>
+                                    <label class="form-check-label" for="lower">
+                                  <input class="form-check-input" type="checkbox" name="lower" id="lower">                                
+                                Would you like your password to include lowercase letters?
+                              </label>
                                 </div>
+                                <br>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="12" checked>
-                                    <label class="form-check-label" for="exampleRadios">
-                                 <p>
-                                    do you like your password include special secret charecters like (œ,ç,π,∂,...) ?
-                                 </p>
-                                </label>
+                                    <label class="form-check-label" for="upper">
+                                <input class="form-check-input" type="checkbox" name="upper" id="upper">
+                              Would you like your password to include uppercase letters?
+                            </label>
                                 </div>
                             </div>
                         </div>
                         <div class="col order-5">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="14" checked>
-                                <label class="form-check-label" for="exampleRadios">
-                              <p>
-                                do you like your password include lowercase ?
-                              </p>
+                                <label class="form-check-label" for="char">
+                            <input class="form-check-input" type="checkbox" name="char" id="char">
+                              Would you like your password to include characters like (!,@,*,%,...)?
                             </label>
                             </div>
+                            <br>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="16" checked>
-                                <label class="form-check-label" for="exampleRadios">
-                              <p>
-                                do you like your password include uppercase ?
-                              </p>
-                            </label>
+                                <label class="form-check-label" for="spechar">
+                          <input class="form-check-input" type="checkbox" name="spechar" id="spechar"> 
+                        Would you like your password to include special secret charecters like (œ,ç,π,∂,...)?
+                          </label>
                             </div>
+                            <br>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="18" checked>
-                                <label class="form-check-label" for="exampleRadios">
-                              <p>
-                                do you like your password include arabicAlphabet ?"
-                              </p>
+                                <label class="form-check-label" for="farsi">
+                                <input class="form-check-input" type="checkbox" name="farsi" id="farsi">                               
+                              Would you like your password to include Arabic Alphabets?
                             </label>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <br>
-                <div class="row row-center">
-                    <hr>
-                    <div class="d-grid gap-2">
-                        <h3>choose the length of your pasword </h3>
-                    </div>
-                    <hr>
+                <!-- start to ask the length of password -->
+                <div class="d-grid gap-2 gap-3">
+                    <h3 class="margin-h3">Choose the length of your password</h3>
+                </div>
+                <div class="row row-center ">
                     <div class="col">
-                        <div class="col order-5">
+                        <div class="col order-5 margin-row-left">
                             <div class="form-check">
-                                <input class="form-check-input ssd" type="radio" name="exampleRadios" id="exampleRadios" value="8" checked>
+                                <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios" value="8">
                                 <label class="form-check-label" for="exampleRadios">
                                   8
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="10" checked>
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="10">
                                 <label class="form-check-label" for="exampleRadios">
                                   10
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="12" checked>
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="12">
                                 <label class="form-check-label" for="exampleRadios">
                                  12
                                 </label>
                             </div>
                         </div>
                     </div>
-                    <div class="col order-5">
+                    <div class="col order-5 margin-row-left">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="14" checked>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="14">
                             <label class="form-check-label" for="exampleRadios">
                               14
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="16" checked>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="16">
                             <label class="form-check-label" for="exampleRadios">
                               16
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="18" checked>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="18">
                             <label class="form-check-label" for="exampleRadios">
                               18
                             </label>
                         </div>
                     </div>
-                    <div class="col order-5">
+                    <div class="col order-5 margin-row-left">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="20" checked>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="20">
                             <label class="form-check-label" for="exampleRadios">
                               20
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="22" checked>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="22">
                             <label class="form-check-label" for="exampleRadios">
                               22
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="24" checked>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="24">
                             <label class="form-check-label" for="exampleRadios">
                               24
                             </label>
                         </div>
                     </div>
-                    <div class="col order-5">
+                    <div class="col order-5 margin-row-left">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="20" checked>
-                            <label class="form-check-label" for="exampleRadios">
-                              20
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="22" checked>
-                            <label class="form-check-label" for="exampleRadios">
-                              22
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="24" checked>
-                            <label class="form-check-label" for="exampleRadios">
-                              24
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col order-5">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="20" checked>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="26">
                             <label class="form-check-label" for="exampleRadios">
                               26
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="22" checked>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="28">
                             <label class="form-check-label" for="exampleRadios">
                               28
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="24" checked>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios" value="30">
                             <label class="form-check-label" for="exampleRadios">
                               30
                             </label>
@@ -209,6 +177,7 @@
                 </div>
             </div>
             <br>
+            <!-- button -->
             <div class="d-grid gap-2">
                 <button id="generate" class="btn btn-secondary" type="button">Generate Password</button>
 
