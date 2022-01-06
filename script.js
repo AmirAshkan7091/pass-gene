@@ -1,9 +1,4 @@
 let generateBtn = document.querySelector("#generate");
-// gnerate the password
-
-// var checkedValue = null;
-
-generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
 
@@ -208,3 +203,6 @@ function writePassword() {
 
     passwordText.value = password;
 }
+
+// gnerate the password
+generateBtn.addEventListener("click", writePassword);
