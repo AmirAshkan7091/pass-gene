@@ -3,7 +3,7 @@ let generateBtn = document.querySelector("#generate");
 // create some variebles to fill them up at the right time
 let retValr = "";
 let newPass = "";
-let arrayChar = []
+
 
 // a object of arrays that inculde six different characters
 let criterias = {
@@ -24,7 +24,7 @@ let upper = criterias.upperCase;
 let farsi = criterias.arabicAlphabet;
 
 function generatePassword() {
-
+    let arrayChar = [];
     let result = "";
 
     // create an object with six keys, that select the checkboxes in html
@@ -53,34 +53,43 @@ function generatePassword() {
     if (confirmNumeric !== null) {
 
         arrayChar.push(numbers);
+        console.log(" numeric" + " " + arrayChar.push(numbers));
     }
     if (confirmChars !== null) {
         arrayChar.push(charecters);
+        console.log(arrayChar.push(charecters));
     }
     if (confirmSpecialChars !== null) {
         arrayChar.push(specialCharecters);
+        console.log(arrayChar.push(specialCharecters));
     }
     if (confirmCLowerase !== null) {
         arrayChar.push(lower);
+        console.log(arrayChar.push(lower));
     }
     if (confirmUpperCase !== null) {
         arrayChar.push(upper);
+        console.log(arrayChar.push(upper));
     }
     if (confirmArabicAlphabet !== null) {
         arrayChar.push(farsi);
+        console.log(arrayChar.push(farsi));
     }
+    console.log("ifha");
 
     // put For statement here to generate the chosen perfrences in pass length time
     for (let i = 0; i < passLength; i++) {
 
-        let one = Math.floor((Math.random() * arrayChar.length - 1) + 1)
-        let two = Math.floor((Math.random() * arrayChar[one].length - 1) + 1)
-
+        let one = Math.floor((Math.random() * arrayChar.length - 1) + 1);
+        console.log(" one" + " " + one);
+        let two = Math.floor((Math.random() * arrayChar[one].length - 1) + 1);
+        console.log(two);
+        console.log(" two" + " " + arrayChar[one]);
         retValr = result += arrayChar[one][two];
-
+        console.log(retValr);
         newPass = retValr.split('').sort(function() { return 0.5 - Math.random() }).join('');
-
-
+        console.log(newPass);
+        console.log("forha");
     }
     return newPass;
 
@@ -93,6 +102,7 @@ function writePassword() {
     let passwordText = document.querySelector("#password");
 
     passwordText.value = password;
+
 }
 
 // gnerate the password
